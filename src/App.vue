@@ -5,7 +5,7 @@
   <div class="container">
    <div class="column-one">
     <h2>Income</h2>
-      <label>Monthly Income: </label>
+      <label>Monthly Income: $</label>
       <input type="text"v-model.number="income" @keyup="calc()">
    </div>
 
@@ -13,50 +13,50 @@
     <h2>Expenses</h2>
     <div class="sub-col-one">
     <h3>Housing/ Living: </h3>
-    <label>Rent:</label>
+    <label>Rent: $</label>
     <input type="text" v-model.number="rent" @keyup="calc()"><br>
 
-    <label>Utilities:</label>
+    <label>Utilities: $</label>
     <input type="text" v-model.number="util" @keyup="calc()"><br>
    
-    <label>Home/Renters Insurance:</label>
+    <label>Home/Renters Insurance: $</label>
     <input type="text" v-model.number="rentInsure" @keyup="calc()"><br>
 
-    <label>Child Care:</label>
+    <label>Child Care: $</label>
     <input type="text" v-model.number="childCare" @keyup="calc()"><br>
 
-    <label>Groceries:</label>
+    <label>Groceries: $</label>
     <input type="text" v-model.number="groceries" @keyup="calc()"><br>
 
-    <label>Misc:</label>
+    <label>Misc: $</label>
     <input type="text" v-model.number="miscHome" @keyup="calc()">
    
     <h3>Loans / Credit Cards:</h3>
-    <label>Student Loans:</label>
+    <label>Student Loans: $</label>
     <input type="text" v-model.number="studentLoans" @keyup="calc()"><br>
 
-    <label>Credit Cards:</label>
+    <label>Credit Cards: $</label>
     <input type="text" v-model.number="creditCards" @keyup="calc()"><br>
 
-    <label>Misc:</label>
+    <label>Misc: $</label>
     <input type="text" v-model.number="miscDebt" @keyup="calc()"><br>
     </div>
 
     <div class="sub-col-two">
 
     <h3>Savings: </h3>
-    <label>Saving:</label>
+    <label>Saving: $</label>
     <input type="text" v-model.number="saving" @keyup="calc()"><br>
 
     <h3>Miscellaneous:</h3>
 
-    <label>Entertainment:</label>
+    <label>Entertainment: $</label>
     <input type="text" v-model.number="entertainment" @keyup="calc()"><br>
 
-    <label>Clothing:</label>
+    <label>Clothing: $</label>
     <input type="text" v-model.number="clothing" @keyup="calc()"><br>
 
-    <label>Personal Care:</label>
+    <label>Personal Care: $</label>
     <input type="text" v-model.number ="personal" @keyup="calc()"><br>
     </div>
    </div>
@@ -135,7 +135,6 @@ h2 {
   margin-top: 1vh;
   border-radius: 3px;
 }
-
 
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
